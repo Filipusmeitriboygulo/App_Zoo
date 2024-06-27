@@ -28,7 +28,7 @@
                         <a class="nav-link" href="kontak.php">Kontak</a>
                     </li>
                     <li class="nav-item px-3">
-                        <button type="button" class="btn btn-warning">Tiket</button>
+                        <button type="button" class="btn btn-warning"><a href="tiket.php" class="text-decoration-none">Tiket</a></button>
                     </li>
                 </ul>
             </div>

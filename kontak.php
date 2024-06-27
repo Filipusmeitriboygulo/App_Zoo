@@ -56,7 +56,7 @@
                     </label>
                 </div>
                 <div class="submit mt-3">
-                    <button type="button" class="btn btn-primary w-100 rounded rounded-5">Kirim</button>
+                    <button type="button" class="btn btn-outline-primary w-100 rounded rounded-5">Kirim</button>
                 </div>
             </div>
         </div>
