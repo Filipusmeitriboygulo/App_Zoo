@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <div class="submit d-flex justify-content-end" style="margin-top: 70px;">
-                    <button type="button" class="btn btn-outline-primary w-50"><a href="detail_tiket.php" class="text-decoration-none"></a>Selanjutnya</button>
+                    <button type="button" class="btn btn-outline-primary w-50"><a href="detail_tiket.php" class="text-decoration-none">Selanjutnya</a></button>
                 </div>
             </div>
         </div>

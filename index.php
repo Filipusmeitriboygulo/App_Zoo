@@ -96,7 +96,7 @@
             <img src="assets/img/penyu.jpg" class="" alt="..." height="250px">
             <div class="card-img-overlay">
               <h1 class="card-title text-light">PEMBELIAN TIKET</h1>
-              <button type="button" class="btn btn-outline-dark text-light">BELI TIKET</button>
+              <button type="button" class="btn btn-outline-dark text-light"><a href="tiket.php" class="text-decoration-none text-light">BELI TIKET</a></button>
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@
             <img src="assets/img/primata.jpg" class="" alt="..." height="250px">
             <div class="card-img-overlay">
               <h1 class="card-title text-light">PETA B-ZOO</h1>
-              <button type="button" class="btn btn-outline-dark text-light">LIHAT PETA</button>
+              <button type="button" class="btn btn-outline-dark text-light"><a href="peta.php" class="text-decoration-none text-light">LIHAT PETA</a></button>
             </div>
           </div>
         </div>

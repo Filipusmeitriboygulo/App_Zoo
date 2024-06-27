@@ -23,13 +23,15 @@
     <section class="container" style="margin-top: 100px;">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
-                    <img src="assets/img/penyu.jpg" class="card-img-top w-100" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Penyu laut Terancam Punah</h5>
-                        <p class="card-text">Penyu laut adalah makhluk yang terancam punah, menghadapi ancaman dari perburuan, polusi plastik, dan perubahan iklim di habitat mereka.</p>
+                <a href="detail_berita.php" class="text-decoration-none hover-effect">
+                    <div class="card h-100">
+                        <img src="assets/img/harimau.jpg" class="card-img-top w-100" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Harimau Sumtra Terancam Punah</h5>
+                            <p class="card-text">Penyu laut adalah makhluk yang terancam punah, menghadapi ancaman dari perburuan, polusi plastik, dan perubahan iklim di habitat mereka.</p>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col">
                 <div class="card h-100">
