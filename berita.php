@@ -8,7 +8,7 @@
     <section class="container-fluid mt-4">
         <div id="berita" class="hero">
             <div class="col-12 px-0">
-                <div class="card">
+                <div class="card-utama">
                     <img src="assets/img/banner-berita.jpg" class="d-block w-lg-100 w-100" alt="..." height="500px">
                     <div class="container card-img-overlay d-flex align-items-center justify-content-star">
                         <h1 class="card-title text-light">BERITA TERKINI</h1>
@@ -23,7 +23,7 @@
     <section class="container" style="margin-top: 100px;">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <a href="detail_berita.php" class="text-decoration-none hover-effect">
+                <a href="detail_berita.php" class="text-decoration-none">
                     <div class="card h-100">
                         <img src="assets/img/harimau.jpg" class="card-img-top w-100" alt="...">
                         <div class="card-body">

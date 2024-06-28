@@ -111,5 +111,20 @@ section {
   transition: 0.5s ease;
 }
 
-
 /* Tag a Hover */
+
+a {
+  transition: 500ms linear;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+
+.card {
+   transition: 500ms linear;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}

@@ -10,7 +10,7 @@
     <section class="container-fluid mt-4">
         <div id="berita" class="hero">
             <div class="col-12 px-0">
-                <div class="card">
+                <div class="card-utama">
                     <img src="assets/img/banner-berita.jpg" class="d-block w-lg-100 w-100" alt="..." height="500px">
                     <div class="container card-img-overlay d-flex align-items-center justify-content-star">
                         <h1 class="card-title text-light">TENTANG KAMI</h1>
