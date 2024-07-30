@@ -1,4 +1,5 @@
 <?php include "partials/header.php" ?>
+<?php session_start(); ?>
 
 <body>
 
@@ -56,7 +57,34 @@
                     <strong>Catatan : tiket tidak dapat dikembalikan</strong>
                 </p>
             </div>
-            <div class="col-lg-5 mt-2 mb-2 p-2 ps-3">
+
+            <div class="col-lg mt-2 mb-2 p-2 ps-3 ">
+                <form id="payment-form" action="detail_tiket.php" method="post">
+                    <div class="mb-3">
+                        <label for="tanggal" class="form-label">Tanggal: </label>
+                        <input type="date" name="tanggal" id="tanggal" class="form-control rounded rounded-5" aria-label="tanggal" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="jumlah" class="form-label">Jumlah :</label>
+                        <input type="number" name="jumlah" id="jumlah" class="form-control rounded rounded-5" aria-label="jumlah" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="mb-3">
+                        <label for="harga" class="form-label">Harga :</label>
+                        <input type="number" name="harga" id="harga" class="form-control rounded rounded-5" aria-label="harga" aria-describedby="basic-addon1" value="60000" readonly>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Syarat dan Ketentuan
+                        </label>
+                    </div>
+                    <div class="submit mt-3">
+                        <button id="pay-button" type="submit" class="btn btn-outline-primary w-25 rounded rounded-5">Pesan</a></button>
+                    </div>
+                </form>
+
+            </div>
+            <!-- <div class="col-lg-5 mt-2 mb-2 p-2 ps-3">
                 <div class="d-flex align-items-center">
                     <h1 class="fw-normal fs-3 me-5">Tanggal</h1>
                     <div class="form-group flex-grow-1">
@@ -79,7 +107,7 @@
                 <div class="submit d-flex justify-content-end" style="margin-top: 70px;">
                     <button type="button" class="btn btn-outline-primary w-50"><a href="detail_tiket.php" class="text-decoration-none">Selanjutnya</a></button>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </section>
